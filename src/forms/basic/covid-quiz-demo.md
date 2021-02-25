@@ -2,14 +2,13 @@
 layout: basic
 title: Example - COVID Little Survey
 date: 2021-02-22T14:17:14.203Z
-waNumber: 621234567899
+waNumber: 6285890710138
 mode: log
 form:
   - type: radio
     required: true
-    label: >-
-      In the last few days, have you worn a mask when 
-      you were in a crowded place?
+    label: In the last few days, have you worn a mask when  you were in a crowded
+      place?
     id: mask
     enum:
       - Never
@@ -17,9 +16,8 @@ form:
       - Always
   - type: radio
     required: true
-    label: >-
-       In the last few days, have you implemented 
-       physical distancing when you were in the crowd?
+    label: In the last few days, have you implemented  physical distancing when you
+      were in the crowd?
     id: distancing
     enum:
       - Never
@@ -27,10 +25,8 @@ form:
       - Always
   - type: radio
     required: true
-    label: >-
-       In the last few days, have you immediately 
-       changed your clothes before entering the 
-       house and having contact with family members?
+    label: In the last few days, have you immediately  changed your clothes before
+      entering the  house and having contact with family members?
     id: changecloth
     enum:
       - Never
